@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100px;
+    justify-content: space-between;
+
+   
+}
+        
+.logo {
+    display: flex;
+    height: 90px;
+    margin-left: 100px;
+    
+}
+
+.Naslovi {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.pozadina {
+
+    height: 720px;
+    background-image: url(https://lh3.googleusercontent.com/drive-storage/ANtge_GO0e74C-a-lywy7u07wjyTMQz7YAz5FYduDcOsnBIEJ89VeK0iqF9Wo7TmLqM14ACwGQVMQN2VVTMYxzUFBXlXeEuzU1ybHyus-Fcf=w1920-h953);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.buttons {
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    justify-content: stretch;
+
+}
+
+.button1{
+    background-color: #992d00;
+    width: 100%;
+}
+
+.button2{
+    background-color: #e09900;
+    width: 100%;
+    
+}
+
+.button3{
+    background-color: #0c71c3;
+    width: 100%;
+    
+}
+
+.bodybellow {
+    display: flex;
+    width: 1300px;
+    height: 100%;
+    margin-top: 20px;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.menu {
+    height: 400px;
+    flex: 1;
+    width: 50%;
+    background-color: #e5e5e5;
+
+}
+
+.aktivnosti {
+
+    height: 600px;
+    margin-left: 20px;
+    background-color: red;
+    flex: 3;
+
+}
+
+.footer {
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    justify-content: stretch;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.povrsina1 {
+    background-color: lightgray;
+    width: 100%;
+    border: 3px solid white;
+
+}
+
+.povrsina2 {
+    background-color: lightgray;
+    width: 100%;
+    border: 3px solid white;
+
+}
+
+.povrsina3 {
+    background-color: lightgray;
+    width: 100%;
+    border: 3px solid white;
+
+}
+
+.fixedPopup {
+    display: flex;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+
+}
